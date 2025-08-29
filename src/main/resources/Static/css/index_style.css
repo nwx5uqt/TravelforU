@@ -1,0 +1,74 @@
+/*Recomendaciones:
+    -Ordenar los estilos en orden alfabetico
+    -Cada Estilo ordenar de arriba para abajo segun la pagina */
+body {
+    padding: 12px;
+}
+.container {
+    overflow: hidden;
+    width: 100%;
+    border: 4px rgb(26, 24, 24) solid;
+}
+
+/*---------LINE ONE-----------*/
+.line_one {
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 4px;
+    border: 5px rgb(216, 30, 233) solid;
+    width: 100%;
+}
+
+.ul_navbar {
+    display: flex;
+    padding: 0px;
+}
+
+.li_cruceros{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    border: 1px red solid;
+    flex: 1;
+}
+.li_hosp{
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+    border: 1px red solid;
+    flex: 1;
+}
+.li_viajes{
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+    border: 1px red solid;
+    flex: 1;
+}
+.li_buss{
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+    border: 1px red solid;
+    flex: 1;
+}
+.li a {
+    align-items: center;
+    border: 1px red solid;
+    display: block;
+    padding: 8px;
+    text-overflow: ellipsis;
+}
+/*---------LINE TWO-----------*/
+.line_two {
+    box-sizing: border-box;
+    width: 100%;
+    border: 4px rgb(14, 194, 134) solid;
+}
+
+/*---------LINE TREE-----------*/
+.line_tree {
+    box-sizing: border-box;
+    width: 100%;
+    border: 4px sienna solid;
+}
